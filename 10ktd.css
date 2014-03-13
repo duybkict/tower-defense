@@ -1,8 +1,9 @@
 body{background:#111;}
-#b{position:relative;height:651px;width:1051px;background:#00344d;}
+#wrap{width:1152px;height:651px;background:url('app/map_scene1.png') 100%;}
+#b{position:relative;height:651px;width:1051px;margin:0px auto;}
 #b div,.e0,.e1,.e2,.e4,.l0,.l1,.l2,.l3,.u0,.u1,.u2,.b0,.b1,.b2 {position:absolute;top:0;left:0;background-image:url('sprite.png') !important;background-repeat:no-repeat;}
-#b div{position:absolute;background:none 0 -124px;}
-#b em{position:absolute;float:left;width:51px;height:51px;background:rgba(19,19,19,.75);z-index:1;}
+#b div{position:absolute;background:none 0 -124px;opacity: 0.6;}
+#b em{position:absolute;float:left;width:51px;height:51px;/*background:rgba(19,19,19,.75);*/z-index:1;}
 .e0,.e1,.e2,.e3,.l0,.l1,.l2,.l3{z-index:2;width:24px;height:18px;-webkit-transition:-webkit-transform .25s;-moz-transition:-moz-transform .25s;}
 .u0,.u1,.u2{left:8px;top:11px;width:32px;height:26px;-webkit-transition:-webkit-transform .25s;-moz-transition:-moz-transform .25s;}
 .b0,.b1,.b2{width:8px;height:8px;z-index:5;}

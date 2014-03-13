@@ -49,7 +49,7 @@
       slots=new Array(numLocations),
       slot=undefined,
       i=0,
-      pathArray=[147,148,149,150,129,108,109,110,111,112,113,134,155,176,197,198,199,200,201,202,203,182,161,140,139,138,137,116,95,74,53,54,55,56,57,58,59,80,101,122,143,164,165,166,167];
+      pathArray=[147,148,149,150,129,108,109,110,111,112,113,134,155,176,197,198,199,200,201,202,203,182,161,140,139,138,137,116,95,74,53,54,55,56,57,58,59,80,101,122,143,164,165,166,167/*obstacles*/,210,211,212,213,214,231,232,233,234,235,252,253,254,255,256,145,146,229,230,249,250,251];
       toggleOn = function () {
         if ($(this).find('i').length == 0) {
           $(this).append('<span class="u' + currUnit + '"></span>');
@@ -463,10 +463,10 @@
           },
           
           rotate: function (angle) {
-            el.css({
-              '-webkit-transform':'rotate(' + angle + 'deg)',
-              '-moz-transform':'rotate(' + angle + 'deg)'
-            });
+//            el.css({
+//              '-webkit-transform':'rotate(' + angle + 'deg)',
+//              '-moz-transform':'rotate(' + angle + 'deg)'
+//            });
           }
         };
     
